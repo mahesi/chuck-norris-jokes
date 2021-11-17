@@ -1,0 +1,25 @@
+{
+    "name": "mahesi/chuck-norris-jokes",
+    "description": "Create random Chuck Norris Jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marc Siewert",
+            "email": "marc@siewert.info"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mahesi\\ChuckNorrisJokes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mahesi\\ChuckNorrisJokes\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
